@@ -12,7 +12,7 @@
 _ I like the use of barrel strategy and custom alias for absolute paths, but it needs to be used carefully.
 - I have added configuration for global imports of SCSS.
 - Jackpots get updated after 5 seconds.
-
+- Sorry for the 90MB of the gifs, I think it make it cooler but at a high cost.
 
 That's all. I have enjoyed building out this solution, I hope you find it interesting. Thanks for your time reviewing it.
 
