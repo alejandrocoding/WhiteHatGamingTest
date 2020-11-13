@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  api: 'http://stage.whgstage.com/front-end-test'
+  api: 'https://stage.whgstage.com/front-end-test'
 };
 
 /*
