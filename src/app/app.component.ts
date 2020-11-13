@@ -1,10 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
+import { StateService } from '@services';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: `<app-layout></app-layout>`
 })
-export class AppComponent {
-  title = 'whg-test';
+export class AppComponent implements OnInit {
+  constructor(private readonly stateService: StateService) { }
+
+  ngOnInit(): void {
+    this.stateService.initState().subscribe();
+  }
 }

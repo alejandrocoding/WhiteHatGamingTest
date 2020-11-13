@@ -1,27 +1,16 @@
-# WhgTest
+# White Hat Gaming Home Assessment - Alejandro Lora
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.0.
 
-## Development server
+# Notes about the test
+- This project has been created from the recently baked out, Angular 11.
+- I have included a ribbon found in a free image repository from Internet. Not the best resource, but I wanted to focus on the completion of the test.
+- There are some space for improvements.
+- I haven't used NGRX for state management as this is a too small app for that tool I think. I have done a custom implementation of a very basic store with BS, but you can see some principles in there. It wouldn't be hard to convert the state service into a implementation with NGRX.
+- I have used Material icons.
+- I have used Angular Flex Layout, which I find very convinient to work with for flex and responsiveness, however you might need sometimes more accuracy using media queries.
+- I was thinking about using SCSS imports and variables, but since CSS is quite good at it already with Custom Properties, that's been the approach taken.
+_ I like the use of barrel strategy and custom alias for absolute paths, but it needs to be used carefully.
+- I have added configuration for global imports of SCSS.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+That's all. I have enjoyed building out this solution, I hope you find it interesting. Thanks for your time reviewing it.
