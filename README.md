@@ -11,6 +11,15 @@
 - I was thinking about using SCSS imports and variables, but since CSS is quite good at it already with Custom Properties, that's been the approach taken.
 _ I like the use of barrel strategy and custom alias for absolute paths, but it needs to be used carefully.
 - I have added configuration for global imports of SCSS.
+- Jackpots get updated after 5 seconds.
 
 
 That's all. I have enjoyed building out this solution, I hope you find it interesting. Thanks for your time reviewing it.
+
+# Final Result
+Feel free to open the following link to find the app deployed and working:
+https://white-hat-gaming.netlify.com/
+
+![Desktop Version](./gifs/desktop-version.gif)
+
+![Mobile Version](./gifs/mobile-version.gif)
